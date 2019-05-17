@@ -1,46 +1,49 @@
 main {
-    background: #dadada;
-    }
-    
-    .sub {
-        font-size:60px;
-        padding-top: 40px ;
-        margin-left: 200px ;
-    }
-    .sub2 {
-        font-size: 40px;
-        margin-left: 240px;
-        margin-top: 20px;
-    }
-    .perfil{
-        font-size: 25px;
-        color: white;
-        padding-left: 300px;
-    }
-       
-    #lista li {
-        padding: 10px;   
-        text-decoration: none;
-        color: black;  
-    
-    }
-    .main-banner img {
-        display: block;
-        width: 100%;
-        height: auto;
-    }
-    
-    .home {
-        margin-top: 10px; 
-    }
-    
-    #lista {margin-top: 20px;margin-left: 400px;font-size: 20px;border-left: 1px solid;margin-bottom: 20px;}
-    
-    #lista a {
-        color: black;
-    }
-    #lista li:hover {
-        background: #888;
-    }
-    
-    
+  background: #dadada;
+}
+
+.sub {
+  font-size: 60px;
+  padding-top: 40px;
+  margin-left: 200px;
+}
+.sub2 {
+  font-size: 40px;
+  margin-left: 240px;
+  margin-top: 20px;
+}
+.perfil {
+  font-size: 25px;
+  color: white;
+  padding-left: 200px;
+}
+
+#lista li {
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+}
+.main-banner img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.home {
+  margin-top: 10px;
+}
+
+#lista {
+  margin-top: 20px;
+  margin-left: 400px;
+  font-size: 20px;
+  border-left: 1px solid;
+  margin-bottom: 20px;
+}
+
+#lista a {
+  color: black;
+}
+#lista li:hover {
+  background: #888;
+}

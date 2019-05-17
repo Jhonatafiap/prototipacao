@@ -1,84 +1,88 @@
-html, body, main {
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+html,
+body,
+main {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
 body {
-    font-family: 'Arial Narrow', Arial, sans-serif;
+  font-family: "Arial Narrow", Arial, sans-serif;
 }
 
 main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;   
-    background-color: #dadada;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #dadada;
 }
 
 form {
-    width: 400px;
-    max-width: 90%;
-    border: 2px solid #21a4a9;
-    border-radius: 12px;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  width: 400px;
+  max-width: 90%;
+  border: 2px solid #21a4a9;
+  border-radius: 12px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 h1 {
-    text-align: center;
-    margin: 20px 0;
-    font-size: 40px;
-    color: #21a4a9;
+  text-align: center;
+  margin: 20px 0;
+  font-size: 40px;
+  color: #21a4a9;
 }
 
 fieldset {
-    border: none;
-    margin: 10px 0;
-    display: flex;
-    flex-direction: column;
-    width: 75%;
+  border: none;
+  margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+  width: 75%;
 }
 
-label, input {
-    margin: 5px 0;
-    display: block; 
+label,
+input {
+  margin: 5px 0;
+  display: block;
 }
 
 label {
-    font-weight: bold;
-    color: #21a4a9;
+  font-weight: bold;
+  color: #21a4a9;
 }
 
 input {
-    width: 100%;
-    border: 1px solid #21a4a9;
-    border-radius: 5px;
-    outline: none;
-    color: #444;
-    padding: 7.5px 20px;
+  width: 100%;
+  border: 1px solid #21a4a9;
+  border-radius: 5px;
+  outline: none;
+  color: #444;
+  padding: 7.5px 20px;
 }
 
 a {
-    font-size: 12px;
-    display: block;
+  font-size: 12px;
+  display: block;
 }
 
 form button {
-    width: 100px;
-    padding: 5px 20px;
-    text-align: center;
-    font-size: 12px;
-    margin: 0 auto;
-    background-color: #35008e;
-    border: 1px solid #0075ff;
-    color: #fff;
-    text-transform: uppercase;
-    border-radius: 5px;
-    margin-top: 10px;
-    outline: none;
+  width: 110px;
+  padding: 5px 20px;
+  text-align: center;
+  font-size: 12px;
+  margin: 0 auto;
+  background-color: #35008e;
+  border: 1px solid #0075ff;
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: 5px;
+  margin-top: 10px;
+  outline: none;
+  cursor: pointer;
 }
